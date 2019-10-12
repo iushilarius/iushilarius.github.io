@@ -1,0 +1,51 @@
+/* Start Body */
+body {
+    background-color: whitesmoke;
+    color: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-whitesmoke{
+    background-color: whitesmoke;
+}
+.bg-wheat{
+    background-color: wheat;
+}
+/* End Debug */
+
+/*  Start Menu Primer */
+.menu-primer {
+    background-color: orangered;
+    color: white;
+}
+.menu-primer h3 ul li a {
+    color: white;
+}
+/*  End Menu Primer */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.margin-top{
+    margin-top: 40px;
+}
+/* End Jumbotron */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: black;
+    color: white;  
+}
+.menu-sekunder ul li a {
+    color: white;
+}
+/* End Menu Sekunder */
