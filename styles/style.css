@@ -1,12 +1,12 @@
 /* Start Font */
-@import url('https://fonts.googleapis.com/css?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
 /* End Font */
 
 /* Start Body */
 body {
     background-color: whitesmoke;
     color: rgb(34, 0, 61);
-    font-family: 'Lemon', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 16px;
     line-height: 1.5em;
     margin: 0;
@@ -16,7 +16,7 @@ body {
 
 /* Start Debug */
 .bg-greenyellow {
-    background-color: rgb(198, 255, 112);
+    background-color: rgb(112, 255, 183);
     border-radius: 15px;
 }
 .bg-khaki {
@@ -156,11 +156,27 @@ h6 {
     height: 405px;
     text-align: justify;
 }
+
+.main-home-profil {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-visimisi {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-profil .box-isi1,
+.main-home-visimisi .box-isi1 {
+    height: 370px;
+    text-align: justify;
+}
 /* End Main Home */
 
 /* Start Box */
 .box-heading {
-    background-color: rgb(198, 255, 112);
+    background-color: rgb(112, 255, 188);
     border: 1px solid #d1d5da;
     border-radius: 3px 3px 0 0;
     margin: 0;
@@ -169,23 +185,47 @@ h6 {
 }
 
 .box-heading1 {
-    background-color: rgb(198, 255, 112);
+    background-color: rgb(112, 255, 188);
     border: 1px solid #d1d5da;
     border-radius: 3px 3px 0 0;
     color: black;
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
+    height: auto;
 }
 
 .box-heading2 {
-    background-color: rgb(198, 255, 112);
+    background-color: rgb(112, 255, 188);
     border: 1px solid #d1d5da;
     border-radius: 3px 3px 0 0;
     color: black;
     margin: 0;
     padding: 10px 20px;
-    text-transform: uppercase;
+    text-transform: none;
+    height: auto;
+}
+
+.box-heading3 {
+    background-color: rgb(112, 255, 188);
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    color: black;
+    margin: 0;
+    padding: 0px 10px;
+    text-transform: none;
+    height: 50px;
+}
+
+.box-heading-header {
+    background-color: rgb(255, 206, 210);
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    color: black;
+    margin: 0;
+    padding: 0px 10px;
+    text-transform: none;
+    height: 50px;
 }
 
 .box-heading h3 {
@@ -194,7 +234,7 @@ h6 {
 }
 
 .box-isi {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -203,7 +243,7 @@ h6 {
 }
 
 .box-isi1 {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -213,7 +253,7 @@ h6 {
 }
 
 .box-isi2 {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -222,7 +262,7 @@ h6 {
 }
 
 .box-isi3 {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -231,7 +271,7 @@ h6 {
 }
 
 .box-isi4 {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -241,7 +281,7 @@ h6 {
 }
 
 .box-isi-alamat {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -251,7 +291,7 @@ h6 {
 }
 
 .box-isi-form {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -260,25 +300,25 @@ h6 {
 }
 
 .box-isi-pertanyaan {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
-    height: 100px;
+    height: 110px;
 }
 
 .box-isi-jawaban {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
-    height: 470px;
+    height: 460px;
 }
 
 .box-isi-pemesanan {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -287,7 +327,7 @@ h6 {
 }
 
 .box-isi-pembayaran {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -296,7 +336,7 @@ h6 {
 }
 
 .box-isi-konfirmasi {
-    background-color: rgb(241, 252, 193);
+    background-color: rgb(200, 252, 193);
     border: 1px solid #eaecea;
     border-top: 0;
     margin: 0;
@@ -308,7 +348,14 @@ h6 {
 /* Start Grid */
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    padding: 20px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
     grid-column-gap: 25px;
     padding: 20px;
 }
@@ -317,7 +364,7 @@ h6 {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 /* End Grid */
 
