@@ -276,7 +276,7 @@ h6 {
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
-    height: 444px;
+    height: 350px;
     text-align: justify;
 }
 
@@ -367,6 +367,14 @@ h6 {
     font-size: 14px;
 }
 /* End Grid */
+
+/* Start Images */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End Images */
 
 /* Start Testimonial */
 .testimonial {
