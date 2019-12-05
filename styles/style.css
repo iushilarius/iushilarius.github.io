@@ -61,7 +61,7 @@ a:active {
 .menu-primer ul {
     background-color: rgb(255, 104, 200);
     border-radius: 10px;
-    text-align= center;
+    text-align: center;
     box-shadow:
         0 3px 5px -1px rgba(233, 68, 164, 0.205),
         0 6px 10px 0 rgba(182, 17, 119, 0.14),
